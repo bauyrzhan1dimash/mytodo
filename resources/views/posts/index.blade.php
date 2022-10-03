@@ -28,7 +28,7 @@
         </div>
     </div>
 </nav>
-
+<div></div>
 
 @foreach($categories as $cat)
     <a href="{{route('posts.category',$cat->id)}}">{{$cat->name}}</a>
